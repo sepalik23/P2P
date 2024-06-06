@@ -34,6 +34,7 @@
 9. Install PICOS:
   ● Make sure that you have the instructions in the previous section done
   successfully.
+
   ● Download OLSONET.tar.xz and unzip it in your Desktop.
   ● Navigate to OLSONET/PICOS and execute the following commands:
   Command:
