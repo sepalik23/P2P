@@ -52,9 +52,9 @@
   - Run gdb using the following commands
   Command:
 
-       gdb-multiarch Image
+           gdb-multiarch Image
 
-       (gdb) target extended-remote localhost:3333
-       (gdb) monitor reset halt
-       (gdb) load
-       (gdb) continue
+           (gdb) target extended-remote localhost:3333
+           (gdb) monitor reset halt
+           (gdb) load
+           (gdb) continue
