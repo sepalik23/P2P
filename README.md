@@ -17,13 +17,13 @@
 3.  Add the following line to /etc/apt/sources.list:
    Command:
           deb http://cz.archive.ubuntu.com/ubuntu focal main universe
-5. Execute the following commands
+4. Execute the following commands
    Command:
        sudo apt update
        sudo apt install libnewlib-nano-arm-none-eabi
        sudo apt install gdb-multiarch
        sudo apt install libtool pkg-config
-7. Download openocd from the following link
+5. Download openocd from the following link
    https://sourceforge.net/projects/openocd/files/openocd/0.10.0-rc2/
    And uncompress and navigate to its directory. Then apply the following commands
    respectively
@@ -31,25 +31,25 @@
        ./configure
        make
        sudo make install
-9. Install PICOS:
-  ● Make sure that you have the instructions in the previous section done
+6. Install PICOS:
+   - Make sure that you have the instructions in the previous section done
   successfully.
 
-  ● Download OLSONET.tar.xz and unzip it in your Desktop.
-  ● Navigate to OLSONET/PICOS and execute the following commands:
+  -  Download OLSONET.tar.xz and unzip it in your Desktop.
+  - Navigate to OLSONET/PICOS and execute the following commands:
   Command:
        ./deploy
-  ● Add the following command to the ~/.bashrc export PATH=~/bin:$PATH
+  - Add the following command to the ~/.bashrc export PATH=~/bin:$PATH
   To test that your installation is successful:
-  ● navigate to OLSONET/PICOS/Apps/EXAMPLES/INTRO/LEDS and execute
+  - navigate to OLSONET/PICOS/Apps/EXAMPLES/INTRO/LEDS and execute
     the following commands:
   Command:
        mkmk CC1350_LAUNCHXL
        make
-  ● Run openocd using the following command
+  - Run openocd using the following command
   Command:
        openocd -f board/ti_cc13x0_launchpad.cfg
-  ● Run gdb using the following commands
+  - Run gdb using the following commands
   Command:
 
        gdb-multiarch Image
