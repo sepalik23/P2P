@@ -39,7 +39,7 @@
   - Navigate to OLSONET/PICOS and execute the following commands:
   Command:
        ./deploy
-  - Add the following command to the ~/.bashrc export PATH=~/bin:$PATH
+  - Add the following command to the "~/.bashrc export PATH=~/bin:$PATH"
   To test that your installation is successful:
   - navigate to OLSONET/PICOS/Apps/EXAMPLES/INTRO/LEDS and execute
     the following commands:
